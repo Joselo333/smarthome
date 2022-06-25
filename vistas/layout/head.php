@@ -11,8 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="container text-center">
-      <div class="row border m-2 p-1">
+    <header class="text-center container">
+      <div class="row m-2">
         <div class="col-1">
             <img class="img-fluid" src="../../imagenes/Logo_UDA.png" alt="Logo de la UDA">
         </div>
@@ -22,11 +22,23 @@
         <div class="col-1">
             <img class="img-fluid" src="../../imagenes/LOGO_FIUDA.png" alt="Logo de FIUDA">
         </div>
-        <div class="col-8">
-          <h1>SMARTCITY</h1>
+        <div class="col-6">
+          <img class="img-fluid" src="../../imagenes/titulo.png" alt="Logo de FIUDA">
         </div>
         <div class="col-1">
           <img class="img-fluid" src="../../imagenes/LOGO_UTEM.png" alt="Logo de la UTEM">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-6">
+          <ul class="nav nav-pills position-relative top-50 start-50 translate-middle">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul>
         </div>
       </div>
     </header>
