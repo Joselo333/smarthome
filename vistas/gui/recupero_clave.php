@@ -1,5 +1,10 @@
 <?php require('../layout/head.php') ?>
-  <div class="container text-center">
-    <h1>hola</h1>
-</div>
+  <link rel="stylesheet" href="../estilos/recupero_clave.css">
+  <div class="container">
+    <div class="row">
+      <p class="col-12 texto-titulo">
+        Recuperar contraseña
+      </p>
+    </div>
+  </div>
 <?php require('../layout/footer.php') ?>
