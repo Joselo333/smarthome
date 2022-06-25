@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 .nav-link{
     border: solid #005fff 1px;
     color: #000000;
@@ -13,4 +15,9 @@
     background-color: #005fff;
     border-radius: 4px;
     color: #ffffff;
+}
+.titulo{
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    text-align: center;
 }
