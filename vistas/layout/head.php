@@ -24,7 +24,7 @@
             <img class="img-fluid" src="../../imagenes/LOGO_FIUDA.png" alt="Logo de FIUDA">
         </div>
         <div class="col-6">
-          <p class="titulo">Smartcity</p>
+          <p class="titulo">SmartCity</p>
         </div>
         <div class="col-1">
           <img class="img-fluid" src="../../imagenes/LOGO_UTEM.png" alt="Logo de la UTEM">

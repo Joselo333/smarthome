@@ -1,6 +1,6 @@
 
-    <footer class="container">
-        <div class="row text-center border m-2 p-1">
+    <footer class="bg-light">
+        <div class="row text-center m-2 p-1 ">
             <div class="col-1">
                 <a href="/"><img class="img-fluid" src="../../imagenes/Logo_UDA.png" alt="" width=16px heigth=16px></a>
             </div>
