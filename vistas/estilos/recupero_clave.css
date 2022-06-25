@@ -4,3 +4,10 @@
     font-weight: bold; 
     font-size: 30px;    
 }
+
+#form0{
+    border: solid #000000 2px;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
