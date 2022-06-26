@@ -12,25 +12,28 @@
     <link rel="stylesheet" href="../estilos/head.css">
   </head>
   <body>
-    <header class="text-center container">
-      <div class="row m-2">
-        <div class="col-1">
+    <header class="text-center header">
+      <div class="row pt-5">
+        <div class="col-1"></div>
+        <div class="col-1 header-esquina-izq">
             <img class="img-fluid" src="../../imagenes/Logo_UDA.png" alt="Logo de la UDA">
         </div>
-        <div class="col-1">
+        <div class="col-1 header-central">
           <img class="img-fluid" src="../../imagenes/Logo_DIICC.png" alt="Logo de departamento de informatica UDA">
         </div>
-        <div class="col-1">
+        <div class="col-1 header-central">
             <img class="img-fluid" src="../../imagenes/LOGO_FIUDA.png" alt="Logo de FIUDA">
         </div>
-        <div class="col-6">
+        <div class="col-6 header-central">
           <p class="titulo">SmartCity</p>
         </div>
-        <div class="col-1">
+        <div class="col-1 header-esquina-der">
           <img class="img-fluid" src="../../imagenes/LOGO_UTEM.png" alt="Logo de la UTEM">
         </div>
       </div>
-      <div class="row ">
+    </header>
+    <nav class="nav-bar">
+      <div class="row">
         <div class="col-3"></div>
         <div class="col-6">
           <ul class="nav nav-pills position-relative top-50 start-50 translate-middle">
@@ -42,4 +45,4 @@
           </ul>
         </div>
       </div>
-    </header>
+    </nav>
