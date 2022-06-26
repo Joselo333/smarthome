@@ -17,19 +17,19 @@
       <div class="row pt-4">
         <div class="col-1"></div>
         <div class="col-1 header-esquina-izq">
-            <img class="img-fluid" src="../../imagenes/Logo_UDA.png" alt="Logo de la UDA">
+            <img class="img-fluid" src="../../imagenes/header/logo-uda.png" alt="Logo de la UDA">
         </div>
         <div class="col-1 header-central">
-          <img class="img-fluid" src="../../imagenes/Logo_DIICC.png" alt="Logo de departamento de informatica UDA">
+          <img class="img-fluid" src="../../imagenes/header/Logo_DIICC.png" alt="Logo de departamento de informatica UDA">
         </div>
         <div class="col-1 header-central">
-            <img class="img-fluid" src="../../imagenes/LOGO_FIUDA.png" alt="Logo de FIUDA">
+            <img class="img-fluid" src="../../imagenes/header/LOGO_FIUDA.png" alt="Logo de FIUDA">
         </div>
         <div class="col-6 header-central">
           <p class="titulo">SmartCity</p>
         </div>
         <div class="col-1 header-esquina-der">
-          <img class="img-fluid" src="../../imagenes/LOGO_UTEM.png" alt="Logo de la UTEM">
+          <img class="img-fluid" src="../../imagenes/header/LOGO_UTEM.png" alt="Logo de la UTEM">
         </div>
       </div>
     </header>
