@@ -15,11 +15,11 @@
     border-top: rgb(125,125,125) solid 1px ; 
 }
 .nav-link:hover{
-    background-color: #005fff;
+    background-color: #979797;
     color: #ffffff;
 }
 .nav-item:hover{
-    background-color: #005fff;
+    background-color:  #979797;
     border-radius: 3px;
     color: #ffffff;
 }

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.footer{
+    background-color: #000000;
+}
+.footer-body{
+    color: #c2c2c2;
+    font-family: 'Righteous', cursive;
+}
