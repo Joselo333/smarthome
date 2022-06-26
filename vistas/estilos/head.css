@@ -12,7 +12,8 @@
 .nav-bar{
     background: rgb(125,125,125);
     background: linear-gradient(180deg, rgba(125,125,125,1) 0%, rgba(147,147,147,1) 25%, rgba(168,168,168,1) 50%, rgba(195,195,195,1) 75%, rgba(231,231,231,1) 100%);
-    border-top: rgb(125,125,125) solid 1px ; 
+    border-top: #858585 solid 1px ; 
+    border-bottom: #858585 solid 1px ; 
 }
 .nav-link:hover{
     background-color: #979797;

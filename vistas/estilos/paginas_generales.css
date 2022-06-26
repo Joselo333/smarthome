@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 .texto-titulo{
     text-align: center; 
     font-family: 'Righteous', cursive; 
@@ -31,6 +34,7 @@
     color: #000000;
     text-decoration: none;
     box-shadow: none;
+    font-family: 'Righteous', cursive; 
 }
 .menu{
     align-items: center;
