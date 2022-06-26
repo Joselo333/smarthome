@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.texto-titulo{
+    text-align: center; 
+    font-family: 'Righteous', cursive; 
+    font-weight: bold; 
+    font-size: 30px;
+    margin-top: 10px;    
+}
+#form_forgot_pass{
+    border: solid #1414142c 1px;
+    border-radius: 20px;
+    padding: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
+.menu-item{
+    border: solid #000000 2px;
+    border-radius: 20px;
+    margin-top: 4px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+.menu-item:hover{
+    border: solid #dfb600 2px; 
+}
+.menu-item-text{
+    color: #000000;
+    text-decoration: none;
+    box-shadow: none;
+}
+.menu{
+    align-items: center;
+    padding: 5px;
+}
+.enlaces{
+    text-decoration: none;
+}

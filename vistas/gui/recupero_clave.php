@@ -1,6 +1,6 @@
 <?php require('../layout/head.php') ?>
 <?php require('../layout/slider.php') ?>
-  <link rel="stylesheet" href="../estilos/recupero_clave.css">
+  <link rel="stylesheet" href="../estilos/paginas_generales.css">
   <div class="container">
     <div class="row">
       <p class="col-12 texto-titulo">
@@ -9,7 +9,7 @@
     </div>
     <div class="row my-4">
       <div class="col-3"></div>
-      <div class="col-6" id="form0">
+      <div class="col-6" id="form_forgot_pass">
         <form>
           <div class="form-floating mb-3">
             <input type="number" class="form-control" id="input-rut" placeholder="12345678-9" required>

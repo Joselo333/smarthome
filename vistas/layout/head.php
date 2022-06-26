@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="text-center header">
-      <div class="row pt-5">
+      <div class="row pt-4">
         <div class="col-1"></div>
         <div class="col-1 header-esquina-izq">
             <img class="img-fluid" src="../../imagenes/Logo_UDA.png" alt="Logo de la UDA">
