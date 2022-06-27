@@ -8,7 +8,7 @@
                 <a href="#"><i class="bi bi-facebook"></i></a>
             </div>
             <div class="col-8">
-                <p class="footer-body">UDA derechos reservados ©</p>
+                <p class="footer-body">© 2022- Universidad de Atacama - Copayapu 485 - Copiapó - Chile</p>
             </div>
             <div class="col-1">
                 <a href="#"><i class="bi bi-instagram"></i></a>

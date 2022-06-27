@@ -20,7 +20,7 @@
             <img class="img-fluid" src="../../imagenes/header/logo-uda.png" alt="Logo de la UDA">
         </div>
         <div class="col-1 header-central">
-          <img class="img-fluid" src="../../imagenes/header/Logo_DIICC.png" alt="Logo de departamento de informatica UDA">
+          <img class="img-fluid" src="../../imagenes/header/Logo_DIICC.png" alt="Logo de Departamento de Ingeniería Informática y Ciencias de la Computación UDA">
         </div>
         <div class="col-1 header-central">
             <img class="img-fluid" src="../../imagenes/header/LOGO_FIUDA.png" alt="Logo de FIUDA">
