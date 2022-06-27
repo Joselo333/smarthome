@@ -29,20 +29,17 @@
     font-size: 50px;
     text-align: center;
 }
-.header-central{
-    background-color: #ffffff;
-    padding-top: 3px;
-}
-.header-esquina-der{
-    background-color: #ffffff;
-    border-radius: 0px 20px 0px 0px;
+.header-central,.header-esquina-der,.header-esquina-izq{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 25%, rgba(226,226,226,1) 50%, rgba(210,210,210,1) 75%, rgba(255,255,255,1) 100%);
     padding-top: 3px;
     padding-bottom: 10px;
 }
+.header-esquina-der{
+    border-radius: 0px 20px 0px 0px;
+}
 .header-esquina-izq{
-    background-color: #ffffff;
     border-radius: 20px 0px 0px 0px;
-    padding-top: 3px;
 }
 .header{
     background-color: #000000;

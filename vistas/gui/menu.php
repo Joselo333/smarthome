@@ -39,7 +39,7 @@
         </div>
         <div class="col-1"></div>
         <div class="col-2 menu-item">
-            <a class="enlaces" href="reportes.php">
+            <a class="enlaces" href="reportes_cxt.php">
                 <img class="img-fluid" src="../../imagenes/menu/reportes.png" alt="">
                 <p class="menu-item-text">Reportes</p>
             </a>

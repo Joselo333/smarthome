@@ -2,6 +2,9 @@
 body{
     overflow-y: scroll;
     overflow-x: hidden;
+    position: relative;
+    padding-bottom: 110px;
+    min-height: 100vh;
 }
 .texto-titulo{
     text-align: center; 
@@ -42,4 +45,8 @@ body{
 }
 .enlaces{
     text-decoration: none;
+}
+.caja-graficos{
+    border: 2px solid #000000;
+    margin: 10px;
 }
