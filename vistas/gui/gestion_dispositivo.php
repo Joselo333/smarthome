@@ -33,43 +33,47 @@
   </div>
   <!-- Tabla de dispositivos -->
   <div class="row">
+
     <div class="col-md-3"></div>
     <div class="col-md-6 mb-3">
-      <table class="table w-100 text-center border caja-graficos">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Marca</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Tipo de uso</th>
-            <th scope="col">Tipo de consumo</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Samsung</td>
-            <td>Tele1</td>
-            <td>Diario</td>
-            <td>Medio</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Oster</td>
-            <td>Microondas</td>
-            <td>Menor a 5 minutos</td>
-            <td>Alto</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Mademsa</td>
-            <td>Lavadora</td>
-            <td>Cada 4 días</td>
-            <td>Alto</td>
-          </tr>
-        </tbody>
-      </table>
+        <div class="card">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Marca</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Tipo de uso</th>
+              <th scope="col">Tipo de consumo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Samsung</td>
+              <td>Tele1</td>
+              <td>Diario</td>
+              <td>Medio</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Oster</td>
+              <td>Microondas</td>
+              <td>Menor a 5 minutos</td>
+              <td>Alto</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Mademsa</td>
+              <td>Lavadora</td>
+              <td>Cada 4 días</td>
+              <td>Alto</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+
   </div>
 </div>
 
