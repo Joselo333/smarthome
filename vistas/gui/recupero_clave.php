@@ -23,7 +23,7 @@
       </div>
       <div class="col-3"></div>
       <div class="row text-center my-5">
-        <a href="recupero_clave.php">
+        <a href="inicio_sesion.php">
           <button type="button" class="btn btn-primary my-3">Recuperar</button>
         </a>
       </div>
