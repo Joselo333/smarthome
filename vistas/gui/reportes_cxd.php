@@ -22,10 +22,16 @@
       </ul>
     </div>
   </div>
-  <div class="row caja-graficos">
+  <div class="row">
     <div class="col-2"></div>
-    <div class="col-8">
-      
+    <div class="col-8 caja-graficos">
+    <select class="form-select filtro-tiempo" aria-label="Default select example">
+      <option>Selecciona tiempo</option>
+      <option value="1" selected>Hora</option>
+      <option value="2">Dia</option>
+      <option value="3">Mes</option>
+    </select>
+      <img class="img-fluid" src="../../imagenes/reportes/grafico_consumo_dispositivo.png" alt="Grafico de el consumo por dispositivo">
     </div>
     <div class="col-2"></div>
   </div>
