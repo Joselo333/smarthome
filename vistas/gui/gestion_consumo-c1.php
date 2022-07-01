@@ -28,36 +28,41 @@
 
     <div class="col-8">
       <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
-
-
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Tipo de Consumo</th>
+              <th scope="col">Consumo [W]</th>
+              <th scope="col">Dispositivo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>🟢 Bajo</td>
+              <td>10 W</td>
+              <td>TV Lg 1</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>🟡 Medio</td>
+              <td>41 W</td>
+              <td>Cafetera Oster 1</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>🟡 Medio</td>
+              <td>81 W</td>
+              <td>Cocina Vitrocerámica Bosch 1</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>🔴 Alto</td>
+              <td>231 W</td>
+              <td>Horno Eléctrico Thomas 1</td>
+            </tr>
+          </tbody>
+        </table>
     </div>
 
     <div class="col-2"></div>
