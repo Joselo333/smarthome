@@ -1,4 +1,5 @@
 <?php require('../layout/head.php') ?>
+<?php require('../layout/nav.php') ?>
 <link rel="stylesheet" href="../estilos/paginas_generales.css">
 
 <div class="container mt-4">
@@ -13,10 +14,10 @@
     <div class="col-md-5"></div>
     <div class="row my-4 ">
       <div class="text-center">
-        <button type="button col-3" class="btn btn-secondary">Filtrar</button>
-        <button type="button col-3" class="btn btn-secondary">Agregar</button>
-        <button type="button col-3" class="btn btn-secondary">Editar</button>
-        <button type="button col-3" class="btn btn-secondary">Eliminar</button>
+        <button type="button" class="btn btn-info">Filtrar</button>
+        <button type="button" class="btn btn-success">Agregar</button>
+        <button type="button" class="btn btn-warning">Editar</button>
+        <button type="button" class="btn btn-danger">Eliminar</button>
       </div>
     </div>
     <div class="col-md-4"></div>
@@ -27,7 +28,7 @@
     <div class="col-md-6 mb-3">
       <div class="input-group w-100">
         <input type="text" class="form-control text-center" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+        <button class="btn btn-outline-success" type="button" id="button-addon2">Buscar</button>
       </div>
     </div>
   </div>

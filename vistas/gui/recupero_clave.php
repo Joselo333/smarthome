@@ -1,5 +1,4 @@
 <?php require('../layout/head.php') ?>
-<?php require('../layout/slider.php') ?>
   <link rel="stylesheet" href="../estilos/paginas_generales.css">
   <div class="container">
     <div class="row">
@@ -23,7 +22,7 @@
       </div>
       <div class="col-3"></div>
       <div class="row text-center my-5">
-        <a href="inicio_sesion.php">
+        <a href="home.php">
           <button type="button" class="btn btn-primary my-3">Recuperar</button>
         </a>
       </div>

@@ -16,34 +16,30 @@
     <header class="text-center header">
       <div class="row pt-4">
         <div class="col-1"></div>
-        <div class="col-1 header-esquina-izq">
-            <img class="img-fluid" src="../../imagenes/header/logo-uda.png" alt="Logo de la UDA">
-        </div>
-        <div class="col-1 header-central">
-          <img class="img-fluid" src="../../imagenes/header/Logo_DIICC.png" alt="Logo de Departamento de Ingeniería Informática y Ciencias de la Computación UDA">
-        </div>
-        <div class="col-1 header-central">
-            <img class="img-fluid" src="../../imagenes/header/LOGO_FIUDA.png" alt="Logo de FIUDA">
-        </div>
         <div class="col-6 header-central">
-          <p class="titulo">SmartCity</p>
+          <h1 class="titulo">SmartCity</h1>
+          <h4 class="sub-titulo">SmartHome</h4>
         </div>
+        <div class="col-1 header-esquina-izq">
+          <a href="https://uda.cl/" target="_blank">
+            <img class="img-fluid logos" src="../../imagenes/header/logo-uda.png" alt="Logo de la UDA">
+          </a>
+        </div>
+        <div class="col-1 header-central">
+          <a href="http://www.diicc.uda.cl/" target="_blank">
+            <img class="img-fluid logos" src="../../imagenes/header/Logo_DIICC.png" alt="Logo de Departamento de Ingeniería Informática y Ciencias de la Computación UDA">
+          </a>
+          </div>
+        <div class="col-1 header-central">
+          <a href="http://www.fiuda2030.uda.cl/" target="_blank"> 
+            <img class="img-fluid logos" src="../../imagenes/header/LOGO_FIUDA.png" alt="Logo de FIUDA">
+          </a>
+        </div>
+        
         <div class="col-1 header-esquina-der">
-          <img class="img-fluid" src="../../imagenes/header/LOGO_UTEM.png" alt="Logo de la UTEM">
+          <a href="https://www.utem.cl/" target="_blank">
+            <img class="img-fluid logos" src="../../imagenes/header/LOGO_UTEM.png" alt="Logo de la UTEM">
+          </a>
         </div>
       </div>
     </header>
-    <nav class="nav-bar">
-      <div class="row">
-        <div class="col-3"></div>
-        <div class="col-6">
-          <ul class="nav nav-pills position-relative top-50 start-50 translate-middle">
-            <li class="nav-item"><a href="../gui/home.php" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="../gui/menu.php" class="nav-link">Menu</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">opcion2</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">opcion3</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">opcion4</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>

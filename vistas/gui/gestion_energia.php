@@ -1,5 +1,5 @@
 <?php require('../layout/head.php') ?>
-<?php require('../layout/slider.php') ?>
+<?php require('../layout/nav.php') ?>
 <!-- 
   AGREGUEN EL CODIGO CORRESPONDIENTE AL CUERPO DE LA PAG.
 -->

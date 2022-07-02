@@ -1,6 +1,10 @@
 <?php require('../layout/head.php') ?>
-<?php require('../layout/slider.php') ?>
-<!-- 
-  AGREGUEN EL CODIGO CORRESPONDIENTE AL CUERPO DE LA PAG.
--->
+<div class="row home">
+  <div class="col-5 home-panel">
+    <?php require('../layout/slider.php') ?>
+  </div>
+  <div class="col-5 home-panel">
+    <?php require('inicio_sesion.php') ?>
+  </div>
+</div>
 <?php require('../layout/footer.php') ?>

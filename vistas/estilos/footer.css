@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .footer{
     background-color: #000000;
-    padding: 50px 0px;
+    padding: 20px 0px;
     text-align: center;
     
 }
 .footer-body{
+    border-top: #ffffff 5px solid;
     color: #c2c2c2;
-    font-family: 'Righteous', cursive;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    margin: 0px 50px 0px 60px;    
+}
+.bi{
+    color: #ffffff;
+    margin: 0px 20px 0px 20px;
 }

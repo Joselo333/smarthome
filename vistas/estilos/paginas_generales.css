@@ -6,10 +6,10 @@ body{
 }
 .texto-titulo{
     text-align: center; 
-    font-family: 'Righteous', cursive; 
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold; 
     font-size: 30px;
-    margin-top: 10px;    
+    margin-top: 20px;    
 }
 #form_forgot_pass{
     border: solid #1414142c 1px;
@@ -21,21 +21,22 @@ body{
     backdrop-filter: blur(20px);
 }
 .menu-item{
-    border: solid #000000 2px;
+    border: solid #000000 3px;
     border-radius: 20px;
     margin-top: 4px;
     margin-bottom: 50px;
     text-align: center;
     padding-top: 5px;
+    background-color:  #5c8404;
 }
 .menu-item:hover{
-    border: solid #dfb600 2px; 
+    border: solid #FFD700 3px;
 }
 .menu-item-text{
     color: #000000;
     text-decoration: none;
     box-shadow: none;
-    font-family: 'Righteous', cursive; 
+    font-family: 'Montserrat', sans-serif;
 }
 .menu{
     align-items: center;
@@ -43,6 +44,10 @@ body{
 }
 .enlaces{
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.enlaces:hover{
+    color: #FFD700;
 }
 .caja-graficos{
     border: 2px solid #000000;
@@ -57,4 +62,28 @@ body{
 .filtro-tiempo{
     justify-content: flex-end;
     width: 300px;
+}
+body{
+    background-image: url(../../imagenes/menu/fondo_pagina.png);
+}
+.home{
+    align-items: center;
+    padding: 5px;
+}
+.home-panel{
+    border:solid #000000 1px;
+    margin: 50px 20px 50px 70px;
+    height: 500px;
+    padding: 20px;
+}
+.dispositivo{
+    height: 200px;
+}
+.dispositivo-text{
+    font-size: x-large;
+}
+.dispositivo-titulo{
+    font-size: x-large;
+    width: min-content;
+    margin-top: 1ex;
 }

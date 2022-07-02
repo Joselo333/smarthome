@@ -1,4 +1,5 @@
 <?php require('../layout/head.php') ?>
+<?php require('../layout/nav.php') ?>
 <link rel="stylesheet" href="../estilos/paginas_generales.css">
   <div class="container">
     <div class="row">
