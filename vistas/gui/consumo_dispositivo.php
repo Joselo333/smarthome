@@ -1,7 +1,6 @@
 <?php require('../layout/head.php') ?>
 <?php require('../layout/nav.php') ?>
 <link rel="stylesheet" href="../estilos/paginas_generales.css">
-<link rel="stylesheet" href="../estilos/iconos_dispositivos.css">
 
 <container class="container mt-4">
 	<div class="row">
