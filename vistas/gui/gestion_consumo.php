@@ -1,7 +1,9 @@
 <?php require('../layout/head.php') ?>
 <?php require('../layout/nav.php') ?>
 <link rel="stylesheet" href="../estilos/paginas_generales.css">
-<div class="container">
+<div 
+    style="background-image: url('../../imagenes/header/fondo_seccion.webp');"
+    class="container-fluid">
   <div class="row">
     <p class="col-12 texto-titulo">
       Gestión de Consumo

@@ -2,7 +2,9 @@
 <?php require('../layout/nav.php') ?>
 <link rel="stylesheet" href="../estilos/paginas_generales.css">
 
-<div class="container mt-4">
+<div 
+    style="background-image: url('../../imagenes/header/fondo_seccion.webp');"
+    class="container-fluid">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-4">

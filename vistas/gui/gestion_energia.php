@@ -2,7 +2,9 @@
 <?php require('../layout/nav.php') ?>
 <link rel="stylesheet" href="../estilos/paginas_generales.css">
 
-<div class="container mt-4 mr-4">
+<div 
+    style="background-image: url('../../imagenes/header/fondo_seccion.webp');"
+    class="container-fluid">
 	<div class="row">
 		<h2 class="text-center texto-titulo">Gestión de Energía<h2>
 	</div>

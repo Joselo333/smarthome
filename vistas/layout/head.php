@@ -1,45 +1,81 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SmartCity</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../estilos/head.css">
-    <link rel="stylesheet" href="../estilos/footer.css">
-  </head>
-  <body>
-    <header class="text-center header">
-      <div class="row pt-4">
-        <div class=""></div>
-        <div class="col-12 col-md-4 col-lg-6">
-          <h1 class="titulo">SmartCity</h1>
-          <h4 class="sub-titulo">SmartHome</h4>
+<html lang="es">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
+
+        <title>
+            smarthome
+        </title>
+    </head>
+
+    <body>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous">
+        </script>
+  
+        <div class="container-fluid">
+            
+            <div 
+                style="background-image: url('../../imagenes/header/fondo_header.png');background-repeat: no-repeat;background-size: cover;"
+                class="row text-center">
+                
+                <div class="col col-lg-4 col-12 text-light">
+                    <img 
+                        class="img-fluid"
+                        style="width: 150px;height: 50px; margin:2% 2% 2% 2%"
+                        src="../../imagenes/header/logo_uda.webp"
+                        alt="logo uda">
+                    
+                    <img 
+                        style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
+                        class="img-fluid"
+                        src="../../imagenes/header/Logo_DIICC.png"
+                        alt="logo diicc"><br>
+               
+                </div>
+                
+                <div class="col col-lg-4 col-12 text-light">
+                    <h3
+                    style="margin:2% 2% 2%2%"
+                    >Smart Home</h3>
+                </div>
+                
+                <div class="col col-lg-4 col-12 text-light">
+                  
+                    <img 
+                        style="width: 150px;height: 50px; margin:2% 2% 2% 2%"
+                        class="img-fluid"
+                        src="../../imagenes/header/logo_fiuda.webp"
+                        alt="logo fiuda">
+                    
+                    <img 
+                        class="img-fluid bg-light"
+                        style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
+                        src="../../imagenes/header/Logo_UTEM.png"
+                        alt="logo utem"><br>
+              
+                </div>
+                
+                <div class="col col-lg-12 col-12 bg-warning text-center text-dark">
+                    <p>Grupo de Investigación Smart City</p>
+                </div>
+                
+            </div>
+            
         </div>
-        <div class="col-3 col-md-2 col-lg-1">
-          <a href="https://uda.cl/" target="_blank">
-            <img class="img-fluid logos" src="../../imagenes/header/logo-uda.png" alt="Logo de la UDA">
-          </a>
-        </div>
-        <div class="col-3 col-md-2 col-lg-1">
-          <a href="http://www.diicc.uda.cl/" target="_blank">
-            <img class="img-fluid logos" src="../../imagenes/header/Logo_DIICC.png" alt="Logo de Departamento de Ingeniería Informática y Ciencias de la Computación UDA">
-          </a>
-          </div>
-        <div class="col-3 col-md-2 col-lg-1">
-          <a href="http://www.fiuda2030.uda.cl/" target="_blank"> 
-            <img class="img-fluid logos" src="../../imagenes/header/LOGO_FIUDA.png" alt="Logo de FIUDA">
-          </a>
-        </div>
-        
-        <div class="col-3 col-md-2 col-lg-1">
-          <a href="https://www.utem.cl/" target="_blank">
-            <img class="img-fluid logos" src="../../imagenes/header/LOGO_UTEM.png" alt="Logo de la UTEM">
-          </a>
-        </div>
-      </div>
-    </header>

@@ -1,21 +1,19 @@
 <?php require('../layout/head.php') ?>
-<div class="row home">
-  <!--inicio panel slider-->
-  <div class="col-1 d-md-none"></div>
-  <div class="col-10 col-md-6 home-panel">
-    <?php require('../layout/slider.php') ?>
-  </div>
-  <div class="col-1 d-md-none"></div>
-  <!--fin panel slider-->
 
-  <!------------------------------------------------->
+    <div class="container-fluid">
+        <div 
+            style="background-image: url('../../imagenes/header/fondo_seccion.webp');
+            background-repeat: no-repeat;background-size: cover;"
+            class="row">
+            
+            <div class="col col-lg-6 col-6">
+                <?php require('../layout/slider.php') ?>
+            </div>
+            
+            <div class="col col-lg-6 col-6">
+                <?php require('inicio_sesion.php') ?>
+            </div>
+        </div>
+    </div>
 
-  <!--inicio panel login-->
-  <div class="col-1 d-md-none"></div>
-  <div class="col-10 col-md-6  home-panel">
-    <?php require('inicio_sesion.php') ?>
-  </div>
-  <div class="col-1 d-md-none d-lg-none"></div>
-  <!--fin panel login-->
-</div>
 <?php require('../layout/footer.php') ?>
