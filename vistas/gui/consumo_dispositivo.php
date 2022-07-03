@@ -24,7 +24,7 @@
 										<h3 class="card-title mt-2 mr-4 dispositivo-titulo">Tele1</h3>
 									</div>
 									<div class="col-3">
-										<i class=""><img id="iconos" class="img-fluid" width="50px" src="../../imagenes/icons/tv.png" alt="Logo de la UDA"></i>
+										<i class=""><img class="img-fluid" width="50px" src="../../imagenes/icons/tv.png" alt="Logo de la UDA"></i>
 									</div>
 
 								</div>
@@ -56,7 +56,7 @@
 										<h3 class="card-title mt-2 mr-4">Lavadora</h3>
 									</div>
 									<div class="col-3">
-										<i class=""><img id="iconos" class="img-fluid" width="50px" src="../../imagenes/icons/refrigerator.png" alt="Logo de la UDA"></i>
+										<i class=""><img class="img-fluid" width="50px" src="../../imagenes/icons/refrigerator.png" alt="Logo de la UDA"></i>
 									</div>
 
 								</div>
@@ -93,7 +93,7 @@
 										<h3 class="card-title mt-2 mr-4 dispositivo-titulo">Impresora</h3>
 									</div>
 									<div class="col-3">
-										<i class=""><img id="iconos" class="img-fluid" width="50px" src="../../imagenes/icons/print.png" alt="Logo de la UDA"></i>
+										<i class=""><img class="img-fluid" width="50px" src="../../imagenes/icons/print.png" alt="Logo de la UDA"></i>
 									</div>
 
 								</div>
