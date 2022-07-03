@@ -15,28 +15,28 @@
   <body>
     <header class="text-center header">
       <div class="row pt-4">
-        <div class="col-1"></div>
-        <div class="col-6 header-central">
+        <div class=""></div>
+        <div class="col-12 col-md-4 col-lg-6">
           <h1 class="titulo">SmartCity</h1>
           <h4 class="sub-titulo">SmartHome</h4>
         </div>
-        <div class="col-1 header-esquina-izq">
+        <div class="col-3 col-md-2 col-lg-1">
           <a href="https://uda.cl/" target="_blank">
             <img class="img-fluid logos" src="../../imagenes/header/logo-uda.png" alt="Logo de la UDA">
           </a>
         </div>
-        <div class="col-1 header-central">
+        <div class="col-3 col-md-2 col-lg-1">
           <a href="http://www.diicc.uda.cl/" target="_blank">
             <img class="img-fluid logos" src="../../imagenes/header/Logo_DIICC.png" alt="Logo de Departamento de Ingeniería Informática y Ciencias de la Computación UDA">
           </a>
           </div>
-        <div class="col-1 header-central">
+        <div class="col-3 col-md-2 col-lg-1">
           <a href="http://www.fiuda2030.uda.cl/" target="_blank"> 
             <img class="img-fluid logos" src="../../imagenes/header/LOGO_FIUDA.png" alt="Logo de FIUDA">
           </a>
         </div>
         
-        <div class="col-1 header-esquina-der">
+        <div class="col-3 col-md-2 col-lg-1">
           <a href="https://www.utem.cl/" target="_blank">
             <img class="img-fluid logos" src="../../imagenes/header/LOGO_UTEM.png" alt="Logo de la UTEM">
           </a>
