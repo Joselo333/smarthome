@@ -14,7 +14,7 @@
         crossorigin="anonymous">
 
         <title>
-            smarthome
+            Smarthome
         </title>
     </head>
 
@@ -36,18 +36,20 @@
                 class="row text-center">
                 
                 <div class="col col-lg-4 col-12 text-light">
-                    <img 
-                        class="img-fluid"
-                        style="width: 150px;height: 50px; margin:2% 2% 2% 2%"
-                        src="../../imagenes/header/logo_uda.webp"
-                        alt="logo uda">
-                    
-                    <img 
-                        style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
-                        class="img-fluid"
-                        src="../../imagenes/header/Logo_DIICC.png"
-                        alt="logo diicc"><br>
-               
+                    <a href="http://www.fi.uda.cl/">
+                        <img 
+                            class="img-fluid"
+                            style="width: 150px;height: 50px; margin:2% 2% 2% 2%"
+                            src="../../imagenes/header/logo_uda.webp"
+                            alt="logo uda">
+                    </a>
+                    <a href="http://www.diicc.uda.cl/">
+                        <img 
+                            style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
+                            class="img-fluid"
+                            src="../../imagenes/header/Logo_DIICC.png"
+                            alt="logo diicc"><br>
+                    </a>
                 </div>
                 
                 <div class="col col-lg-4 col-12 text-light">
@@ -57,19 +59,20 @@
                 </div>
                 
                 <div class="col col-lg-4 col-12 text-light">
-                  
-                    <img 
-                        style="width: 150px;height: 50px; margin:2% 2% 2% 2%"
-                        class="img-fluid"
-                        src="../../imagenes/header/logo_fiuda.webp"
-                        alt="logo fiuda">
-                    
-                    <img 
-                        class="img-fluid bg-light"
-                        style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
-                        src="../../imagenes/header/Logo_UTEM.png"
-                        alt="logo utem"><br>
-              
+                    <a href="http://www.fiuda2030.uda.cl/">
+                        <img 
+                            style="width: 150px;height: 50px; margin:2% 2% 2% 2%"
+                            class="img-fluid"
+                            src="../../imagenes/header/logo_fiuda.webp"
+                            alt="logo fiuda">
+                    </a>    
+                    <a href="https://www.utem.cl/">  
+                        <img 
+                            class="img-fluid bg-light"
+                            style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
+                            src="../../imagenes/header/Logo_UTEM.png"
+                            alt="logo utem"><br>
+                    </a> 
                 </div>
                 
                 <div class="col col-lg-12 col-12 bg-warning text-center text-dark">
