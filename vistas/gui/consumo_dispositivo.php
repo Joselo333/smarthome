@@ -12,11 +12,11 @@
     
     <div class="row">
         
-        <div class="col col-lg-4 col-12 card">
+        <div class="col col-lg-4 col-12 card text-center">
             <br>
             <div class="card-body border border-2 border-success">
-                <h3 class="card-title mt-2 dispositivo-titulo">[LG]</h3>
-                <h3 class="card-title mt-2 mr-4 dispositivo-titulo">Tele1</h3>
+                <h3 class="card-title">[LG]</h3>
+                <h3 class="card-title">Tele1</h3>
                 <img id="iconos" class="img-fluid" width="50px" 
                      src="../../imagenes/icons/tv.png" alt="Logo de la UDA">
                 <h3 class="card-text text-muted mt-2 dispositivo-text">500 kWh</h3>
@@ -28,11 +28,11 @@
             <br>
         </div>
         
-        <div class="col col-lg-4 col-12 card">
+        <div class="col col-lg-4 col-12 card text-center">
             <br>
             <div class="card-body border border-2 border-success">
-                <h3 class="card-title mt-2 dispositivo-titulo">[Mademsa]</h3>
-                <h3 class="card-title mt-2 mr-4 dispositivo-titulo">Lavadora</h3>
+                <h3 class="card-title">[Mademsa]</h3>
+                <h3 class="card-title">Lavadora</h3>
                 <img id="iconos" class="img-fluid" width="50px" 
                      src="../../imagenes/icons/refrigerator.png" alt="Logo de la UDA">
                 <h3 class="card-text text-muted mt-2 dispositivo-text">300 kWh</h3>
