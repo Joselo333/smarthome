@@ -12,7 +12,7 @@
         rel="stylesheet" 
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
         crossorigin="anonymous">
-
+        <link href="../estilos/home.css" rel="stylesheet">
         <title>
             Smarthome
         </title>
@@ -70,7 +70,7 @@
                         <img 
                             class="img-fluid bg-light"
                             style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
-                            src="../../imagenes/header/Logo_UTEMz.png"
+                            src="../../imagenes/header/Logo_UTEM.png"
                             alt="logo utem"><br>
                     </a> 
                 </div>

@@ -1,4 +1,4 @@
-        <div class="container-fluid">
+        <div class="container-fluid footer">
             <div 
                 style="background-image: url('../../imagenes/header/fondo_header.png');background-repeat: no-repeat;background-size: cover;"
                 class="row">
@@ -21,22 +21,22 @@
                 <div class="col col-lg-4 col-12 text-center">
                     
                     <a 
+                        class="text-light"
                         style="margin:2% 2% 2% 2%"
                         target="_blank"
                         href="#">
                         
-                        <i class="bi bi-facebook text-light">
-                        Facebook   
+                        <i class="bi bi-facebook">  
                         </i>
                     </a>
                     <br>
                     <a 
+                        class="text-light"
                         style="margin:2% 2% 2% 2%"
                         target="_blank"
                         href="#">
                         
-                        <i class="bi bi-instagram text-light">
-                        Instagram    
+                        <i class="bi bi-instagram">  
                         </i>
                     </a>
                     <br>
@@ -47,6 +47,6 @@
          
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     </body>
 </html>
