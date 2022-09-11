@@ -9,7 +9,7 @@
                 <img 
                      src="https://blog.grupocajamar.com/wp-content/uploads/2020/09/GettyImages-1157297369-940x480.jpg" 
                      class="img-fluid" 
-                     style="border-radius: 10%;height: 300px;width: 100%;"
+                     style="border-radius: 10%;height: 400px;width: 100%;"
                      alt="...">
             </div>
             
@@ -17,14 +17,14 @@
                 <img 
                      src="https://www.epn.edu.ec/wp-content/uploads/2019/02/ffffe.jpg" 
                      class="img-fluid" 
-                     style="border-radius: 10%;height: 300px;width: 100%;"
+                     style="border-radius: 10%;height: 400px;width: 100%;"
                      alt="...">
             </div>
             
             <div class="carousel-item">
                 <img src="https://petroquimex.com/wp-content/uploads/2019/05/energ%C3%A9tica-.jpg" 
                      class="img-fluid" 
-                     style="border-radius: 10%;height: 300px;width: 100%;"
+                     style="border-radius: 10%;height: 400px;width: 100%;"
                      alt="...">
             </div>
             
