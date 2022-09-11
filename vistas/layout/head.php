@@ -70,7 +70,7 @@
                         <img 
                             class="img-fluid bg-light"
                             style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
-                            src="../../imagenes/header/Logo_UTEM.png"
+                            src="../../imagenes/header/Logo_UTEMz.png"
                             alt="logo utem"><br>
                     </a> 
                 </div>

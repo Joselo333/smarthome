@@ -29,7 +29,7 @@
     <div class="col-md-3"></div>
     <div class="col-md-6 mb-3">
       <div class="input-group w-100">
-        <input type="text" class="form-control text-center" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <input type="text" class="form-control text-center" placeholder="Buscar..." aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-success" type="button" id="button-addon2">Buscar</button>
       </div>
     </div>
