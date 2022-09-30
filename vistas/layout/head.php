@@ -39,8 +39,8 @@
                     <a href="http://www.fi.uda.cl/">
                         <img 
                             class="img-fluid"
-                            style="width: 150px;height: 50px; margin:2% 2% 2% 2%"
-                            src="../../imagenes/header/logo_uda.webp"
+                            style="width: 151px;height: 50px; margin:2% 2% 2% 2%"
+                            src="../../imagenes/header/logo_uda.png"
                             alt="logo uda">
                     </a>
                     <a href="http://www.diicc.uda.cl/">
@@ -61,17 +61,17 @@
                 <div class="col col-lg-4 col-12 text-light">
                     <a href="http://www.fiuda2030.uda.cl/">
                         <img 
-                            style="width: 150px;height: 50px; margin:2% 2% 2% 2%"
+                            style="width: 183px;height: 50px; margin:2% 2% 2% 2%"
                             class="img-fluid"
-                            src="../../imagenes/header/logo_fiuda.webp"
+                            src="../../imagenes/header/logo_fiuda.png"
                             alt="logo fiuda">
                     </a>    
                     <a href="https://www.utem.cl/">  
                         <img 
-                            class="img-fluid bg-light"
-                            style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
-                            src="../../imagenes/header/Logo_UTEM.png"
-                            alt="logo utem"><br>
+                            class="img-fluid"
+                            style="width: 184px;height: 50px; margin:2% 2% 2% 2%"
+                            src="../../imagenes/header/Logo_UTEM3.png"
+                            alt="logo utem">
                     </a> 
                 </div>
                 

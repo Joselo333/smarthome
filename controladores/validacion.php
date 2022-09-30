@@ -1,14 +1,14 @@
 <?php
     include('conexion.php');
     $con=conectar();
-    $email=$_POST['email'];
-    $contraseña=$_POST['password'];
+    $correo=$_POST['correo'];
+    $clave=$_POST['clave'];
     $rut=$_POST['rut'];
 
     session_start();
-    $_SESSION['email']=$email;
+    $_SESSION['correo']=$correo;
 
-    $consulta="SELECT * FROM usuarios where rut='$rut' and email='$email' and contraseña='$contraseña'";
+    $consulta="SELECT * FROM usuarios where rut='$rut' and correo='$email' and clave='$clave'";
     $resultado=mysqli_query($con,$consulta);
     $filas=mysqli_num_rows($resultado);
 
