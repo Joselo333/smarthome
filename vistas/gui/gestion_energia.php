@@ -4,7 +4,9 @@
 <div class="container-fluid">
 	<div class="row">
 		<?php require('menu_lateral.php') ?>
+		<br><br>
 		<div class="col-9">
+			<br><br>
 			<div class="row">
 				<h2 class="text-center texto-titulo">Gestión de Energía<h2>
 			</div>

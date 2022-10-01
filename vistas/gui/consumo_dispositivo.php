@@ -4,11 +4,12 @@
     <div class="row">
         <?php require('menu_lateral.php') ?>
         <div class="col-9">
+            <br><br>
             <div class="row">
                 <h2 class="text-center texto-titulo">Consumo por Dispositivo</h2>
             </div>
-    
-            <div class="row">
+            <br>
+            <div class="row p-5">
                 
                 <div class="col col-lg-4 col-12 card text-center">
                     <br>

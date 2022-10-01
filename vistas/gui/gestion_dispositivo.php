@@ -5,13 +5,15 @@
   <div class="row">
     <?php require('menu_lateral.php') ?>
     <div class="col-9">
-      <div class="row">
+      <br><br>
+        <div class="row">
           <div class="col-md-4"></div>
           <div class="col-md-4">
-            <h2 class="text-center texto-titulo">Gestionar Dispositivos<h2>
+            <h2 class="text-center">Gestionar Dispositivos<h2>
           </div>
         </div>
         <!-- Botones crud -->
+        <br><br>
         <div class="row">
           <div class="col-md-5"></div>
           <div class="row my-4 ">

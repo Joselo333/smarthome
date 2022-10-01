@@ -1,4 +1,4 @@
-<div class="col col-12 col-md-3 fondo-seccion border border-dark">
+<div class="col col-12 col-md-3 fondo-seccion">
     <div class="row">
             
         <h3 class="text-center pt-3">
