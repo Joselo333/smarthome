@@ -45,9 +45,9 @@
                     </a>
                     <a href="http://www.diicc.uda.cl/">
                         <img 
-                            style="width: 50px;height: 50px; margin:2% 2% 2% 2%"
+                            style="width: 159px;height: 50px; margin:2% 2% 2% 2%"
                             class="img-fluid"
-                            src="../../imagenes/header/Logo_DIICC.png"
+                            src="../../imagenes/header/Logo_DIICC3.png"
                             alt="logo diicc"><br>
                     </a>
                 </div>
