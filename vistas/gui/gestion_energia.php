@@ -5,7 +5,8 @@
 	<div class="row">
 		<?php require('menu_lateral.php') ?>
 		<br><br>
-		<div class="col-12">
+		<div id="mover4" class=""></div>
+		<div id="content4" class="col-12">
 			<br><br>
 			<div class="row">
 				<h2 class="text-center texto-titulo">Gestión de Energía<h2>
@@ -159,6 +160,21 @@
 		</div>
 	</div>
 </div>
-
+<script>
+        function abrirMenu4(){
+            document.getElementById('content4').classList.toggle('col-md-9');
+            document.getElementById('mover4').classList.toggle('col-3');
+        }
+        document.getElementById('abrir').onclick = function(){
+            abrirMenu4();
+        }
+        function cerrarMenu4(){
+            document.getElementById('content4').classList.toggle('col-md-9');
+            document.getElementById('mover4').classList.toggle('col-3');
+        }
+        document.getElementById('cerrar').onclick = function(){
+            cerrarMenu4();
+        }
+</script>
 <?php require('../layout/footer.php') ?>
 

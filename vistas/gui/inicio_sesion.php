@@ -43,7 +43,7 @@
             </div>
         </form>
         <div class="col col-lg-12 col-12 text-center">
-            <a type="button" class="text-warning" data-bs-toggle="modal" data-bs-target="#recuperarContraseña">
+            <a type="button" class="text-warning fw-bold" data-bs-toggle="modal" data-bs-target="#recuperarContraseña">
                 ¡Recuperar Contraseña!
             </a> 
         </div>

@@ -3,7 +3,8 @@
     
     <div class="row">
         <?php require('menu_lateral.php') ?>
-        <div class="col-12">
+        <div id="mover1" class=""></div>
+        <div id="content1" class="col-12">
             <br><br>
             <div class="row">
                 <h2 class="text-center texto-titulo">Consumo por Dispositivo</h2>
@@ -67,7 +68,21 @@
 
     </div>
 </div>
-
-
+<script>
+        function abrirMenu1(){
+            document.getElementById('content1').classList.toggle('col-md-9');
+            document.getElementById('mover1').classList.toggle('col-3');
+        }
+        document.getElementById('abrir').onclick = function(){
+            abrirMenu1();
+        }
+        function cerrarMenu1(){
+            document.getElementById('content1').classList.toggle('col-md-9');
+            document.getElementById('mover1').classList.toggle('col-3');
+        }
+        document.getElementById('cerrar').onclick = function(){
+            cerrarMenu1();
+        }
+    </script>
     
 <?php require('../layout/footer.php') ?>

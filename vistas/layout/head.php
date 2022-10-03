@@ -39,8 +39,8 @@
                     <a href="http://www.fi.uda.cl/">
                         <img 
                             class="img-fluid"
-                            style="width: 151px;height: 50px; margin:2% 2% 2% 2%"
-                            src="../../imagenes/header/logo_uda.png"
+                            style="width: 165px;height: 50px; margin:2% 2% 2% 2%"
+                            src="../../imagenes/header/Logo_Facultad.png"
                             alt="logo uda">
                     </a>
                     <a href="http://www.diicc.uda.cl/">
@@ -75,7 +75,7 @@
             </div>
             <div class="row bg-warning p-1">
                 <div class="col col-lg-1 col-1 bg-warning text-center text-dark">
-                    <button class="btn btn-light border border-dark" type="button" 
+                    <button id="abrir" class="btn btn-light border border-dark" type="button" 
                     data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" 
                     aria-controls="offcanvasScrolling">
                         <i class="bi bi-list"></i>
@@ -88,3 +88,4 @@
             </div>
             
         </div>
+    

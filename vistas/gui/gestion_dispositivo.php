@@ -4,7 +4,8 @@
 <div class="container-fluid">
   <div class="row">
     <?php require('menu_lateral.php') ?>
-    <div class="col-12">
+    <div id="mover3" class=""></div>
+    <div id="content3" class="col-12">
       <br><br>
         <div class="row">
           <div class="col-md-4"></div>
@@ -82,5 +83,20 @@
     </div>
   </div>
 </div>
-
+<script>
+        function abrirMenu3(){
+            document.getElementById('content3').classList.toggle('col-md-9');
+            document.getElementById('mover3').classList.toggle('col-3');
+        }
+        document.getElementById('abrir').onclick = function(){
+            abrirMenu3();
+        }
+        function cerrarMenu3(){
+            document.getElementById('content3').classList.toggle('col-md-9');
+            document.getElementById('mover3').classList.toggle('col-3');
+        }
+        document.getElementById('cerrar').onclick = function(){
+            cerrarMenu3();
+        }
+</script>
 <?php require('../layout/footer.php') ?>

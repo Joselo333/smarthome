@@ -2,7 +2,8 @@
 <div class="container-fluid">
     <div class="row">
         <?php require('menu_lateral.php') ?>
-        <div class="col-12 text-center">
+        <div id="mover2" class=""></div>
+        <div id="content2" class="col-12 text-center">
             <br><br>
             <h2>Gestion de Consumo</h2>
             <br><br>
@@ -105,4 +106,20 @@
         </div>
     </div>
 </div>
+<script>
+        function abrirMenu2(){
+            document.getElementById('content2').classList.toggle('col-md-9');
+            document.getElementById('mover2').classList.toggle('col-3');
+        }
+        document.getElementById('abrir').onclick = function(){
+            abrirMenu2();
+        }
+        function cerrarMenu2(){
+            document.getElementById('content2').classList.toggle('col-md-9');
+            document.getElementById('mover2').classList.toggle('col-3');
+        }
+        document.getElementById('cerrar').onclick = function(){
+            cerrarMenu2();
+        }
+</script>
 <?php require('../layout/footer.php') ?>

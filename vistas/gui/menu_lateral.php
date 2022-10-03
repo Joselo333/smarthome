@@ -3,7 +3,7 @@
         <h2>
             <a href="menu.php" class="text-decoration-none text-dark">Menú</a>
         </h2>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button id="cerrar" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
         <div class="row text-center">
