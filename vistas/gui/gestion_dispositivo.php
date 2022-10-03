@@ -4,7 +4,7 @@
 <div class="container-fluid">
   <div class="row">
     <?php require('menu_lateral.php') ?>
-    <div class="col-9">
+    <div class="col-12">
       <br><br>
         <div class="row">
           <div class="col-md-4"></div>

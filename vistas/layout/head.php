@@ -45,17 +45,15 @@
                     </a>
                     <a href="http://www.diicc.uda.cl/">
                         <img 
-                            style="width: 159px;height: 50px; margin:2% 2% 2% 2%"
+                            style="width: 165px;height: 50px; margin:2% 2% 2% 2%"
                             class="img-fluid"
-                            src="../../imagenes/header/Logo_DIICC3.png"
+                            src="../../imagenes/header/Logo_DIICC5.png"
                             alt="logo diicc"><br>
                     </a>
                 </div>
                 
                 <div class="col col-lg-4 col-12 text-light">
-                    <h3
-                    style="margin:2% 2% 2%2%"
-                    >Smart Home</h3>
+                    <h3>Smart Home</h3>
                 </div>
                 
                 <div class="col col-lg-4 col-12 text-light">
@@ -74,8 +72,16 @@
                             alt="logo utem">
                     </a> 
                 </div>
-                
-                <div class="col col-lg-12 col-12 bg-warning text-center text-dark">
+            </div>
+            <div class="row bg-warning p-1">
+                <div class="col col-lg-1 col-1 bg-warning text-center text-dark">
+                    <button class="btn btn-light border border-dark" type="button" 
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" 
+                    aria-controls="offcanvasScrolling">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+                <div class="col col-lg-11 col-11 bg-warning text-center text-dark">
                     <p>Grupo de Investigación Smart City</p>
                 </div>
                 

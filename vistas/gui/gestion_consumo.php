@@ -2,7 +2,7 @@
 <div class="container-fluid">
     <div class="row">
         <?php require('menu_lateral.php') ?>
-        <div class="col-9 text-center">
+        <div class="col-12 text-center">
             <br><br>
             <h2>Gestion de Consumo</h2>
             <br><br>

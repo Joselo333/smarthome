@@ -3,7 +3,7 @@
     
     <div class="row">
         <?php require('menu_lateral.php') ?>
-        <div class="col-9">
+        <div class="col-12">
             <br><br>
             <div class="row">
                 <h2 class="text-center texto-titulo">Consumo por Dispositivo</h2>
