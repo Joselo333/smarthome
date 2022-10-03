@@ -1,9 +1,88 @@
-<?php require('../layout/head.php') ?>
+<!doctype html>
+<html lang="es">
 
-    <div class="container-fluid">
-        <div 
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
+        <link href="../estilos/home.css" rel="stylesheet">
+        <title>
+            Smarthome
+        </title>
+    </head>
+
+    <body>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous">
+        </script>
+  
+        <div class="container-fluid">
             
-            class="row">
+            <div 
+                style="background-image: url('../../imagenes/header/fondo_header.png');background-repeat: no-repeat;background-size: cover;"
+                class="row text-center">
+                
+                <div class="col col-lg-4 col-12 text-light">
+                    <a href="http://www.fi.uda.cl/">
+                        <img 
+                            class="img-fluid"
+                            style="width: 165px;height: 50px; margin:2% 2% 2% 2%"
+                            src="../../imagenes/header/Logo_Facultad.png"
+                            alt="logo uda">
+                    </a>
+                    <a href="http://www.diicc.uda.cl/">
+                        <img 
+                            style="width: 165px;height: 50px; margin:2% 2% 2% 2%"
+                            class="img-fluid"
+                            src="../../imagenes/header/Logo_DIICC5.png"
+                            alt="logo diicc"><br>
+                    </a>
+                </div>
+                
+                <div class="col col-lg-4 col-12 text-light">
+                    <h3>Smart Home</h3>
+                </div>
+                
+                <div class="col col-lg-4 col-12 text-light">
+                    <a href="http://www.fiuda2030.uda.cl/">
+                        <img 
+                            style="width: 183px;height: 50px; margin:2% 2% 2% 2%"
+                            class="img-fluid"
+                            src="../../imagenes/header/logo_fiuda.png"
+                            alt="logo fiuda">
+                    </a>    
+                    <a href="https://www.utem.cl/">  
+                        <img 
+                            class="img-fluid"
+                            style="width: 184px;height: 50px; margin:2% 2% 2% 2%"
+                            src="../../imagenes/header/Logo_UTEM3.png"
+                            alt="logo utem">
+                    </a> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-lg-12 col-12 bg-warning text-center text-dark fw-bold">
+                    <p>Grupo de Investigación Smart City</p>
+                </div>
+            </div>        
+            
+            
+        </div>
+    <div class="container-fluid">
+        <div class="row">
             
             <div class="col col-lg-9 col-9 ">
                 <?php require('../layout/slider.php') ?>
@@ -14,5 +93,4 @@
             </div>
         </div>
     </div>
-
 <?php require('../layout/footer.php') ?>

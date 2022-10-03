@@ -13,11 +13,13 @@
     $filas=mysqli_num_rows($resultado);
 
     if($filas > 0){
-
+        
         header("Location: ../vistas/gui/menu.php");
         
     }else{
     
         echo "<script> alert ('Las credenciales ingresadas no son validas. Por favor vuelva a intentarlo.'); window.location='../index.php' </script>";
     }
+    mysqli_free_result($resultado);
+    mysqli_close($con);
 ?>

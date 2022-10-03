@@ -48,7 +48,7 @@
             </a> 
         </div>
         <div class="col col-lg-12 col-12 text-center">
-            <button  type="submit" form="login" class="btn btn-success">
+            <button id="ingresar" type="submit" form="login" class="btn btn-success">
                 Ingresar
             </button>
             <br>
