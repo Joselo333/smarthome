@@ -1,18 +1,18 @@
 <?php
     include('conexion.php');
     $con=conectar();
-    $correo=$_POST['correo'];
-    $clave=$_POST['clave'];
-    $rut=$_POST['rut'];
+    $correo=$_GET['correo'];
+    $clave=$_GET['clave'];
+    $rut=$_GET['rut'];
 
     session_start();
     $_SESSION['correo']=$correo;
 
-    $consulta="SELECT * FROM usuarios where rut='$rut' and correo='$email' and clave='$clave'";
+    $consulta="SELECT * FROM usuarios WHERE rut='$rut' and correo='$correo' and clave='$clave'";
     $resultado=mysqli_query($con,$consulta);
     $filas=mysqli_num_rows($resultado);
 
-    if($resultado){
+    if($filas > 0){
 
         header("Location: ../vistas/gui/menu.php");
         

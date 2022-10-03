@@ -16,7 +16,7 @@
     </div>
     
     <div class="row">
-       <form id="login" action="../../controladores/validacion.php" method="post">
+       <form id="login" action="../../controladores/validacion.php" method="get">
             <div class="col col-lg-12 col-12 border border-2 border-success fondo-seccion px-2">
                 <br>
                 <label class="form-label" for="input-rut">
@@ -48,7 +48,6 @@
             </a> 
         </div>
         <div class="col col-lg-12 col-12 text-center">
-            
             <button  type="submit" form="login" class="btn btn-success">
                 Ingresar
             </button>
