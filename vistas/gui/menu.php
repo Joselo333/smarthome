@@ -6,7 +6,7 @@
         
         <div id="mover0" class=""></div>
         <div id="content0" class="col col-12 p-5 min-vh-100">
-            <iframe src="https://app.dashboard.smartelectric.cl/dashboard/snapshot/dTl6Bd7dI8FIRUcC4Edk1vYwhQ4sS8Me"
+            <iframe src="https://app.dashboard.smartelectric.cl/dashboard/snapshot/Jtupmit7npt7nUKDv3zHw74Q49IHFdRE"
             class="w-100 h-100" frameborder="0"></iframe>
         </div>
 
@@ -28,6 +28,7 @@
         document.getElementById('cerrar').onclick = function(){
             cerrarMenu0();
         }
+        
     </script>
 </div>
     
