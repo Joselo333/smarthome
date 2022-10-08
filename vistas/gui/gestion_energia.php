@@ -16,7 +16,7 @@
 			<div class="row">
 				<div class="col-1"></div>
 				<div class="col-10 text-center">
-					<div class="card p-4 my-3">
+					<div class="card p-4 my-3  border border-dark">
 						<div class="row">
 							<!-- row 1 -->
 							<div class="col-md-4">
@@ -32,7 +32,7 @@
 						</div>
 						<br>
 						<!--  -->
-						<div class="row">
+						<div class="row ">
 							<div class="col-md-3">
 								<p class="fs-6 text-success">Sumistro: 500kWh</p>
 							</div>
@@ -62,7 +62,7 @@
 				<div class="col-10 text-center">
 
 					<!-- Paneles Solares -->
-					<div class="card p-4 my-3">
+					<div class="card p-4 my-3 border border-dark">
 						<div class="row">
 							<div class="col-md-4">
 								<h3 class="text-center texto-titulo">Paneles Solares</h3>
@@ -93,7 +93,7 @@
 					</div>
 
 					<!-- Suministro Eléctrico -->
-					<div class="card p-4 my-3">
+					<div class="card p-4 my-3 border border-dark">
 
 						<div class="row">
 							<div class="col-md-4">
@@ -125,7 +125,7 @@
 					</div>
 
 					<!-- Energía Eólica -->
-					<div class="card p-4 my-3">
+					<div class="card p-4 my-3 border border-dark">
 						<div class="row">
 							<div class="col-md-4">
 								<h3 class="text-center texto-titulo">Energía Eólica</h3>

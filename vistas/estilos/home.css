@@ -11,5 +11,12 @@ body{
     width: 100%;
 }
 .fondo-seccion{
-    background-color: #eafed9;
+    background-image: url('../../imagenes/header/fondo_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo-grupo{
+    background-image: url('../../imagenes/header/fondo-grupo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

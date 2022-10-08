@@ -29,10 +29,10 @@
         <!-- Barra de búsqueda -->
         <div class="row">
           <div class="col-md-3"></div>
-          <div class="col-md-6 border border-bottom-0 border-dark bg-light p-3">
+          <div class="col-md-6 border border-bottom-0 border-dark fondo-grupo p-3">
             <div class="input-group w-100">
               <input type="text" class="form-control text-center" placeholder="Buscar..." aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-outline-success" type="button" id="button-addon2">Buscar</button>
+              <button class="btn btn-success" type="button" id="button-addon2">Buscar</button>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@
         <div class="row">
 
           <div class="col-md-3"></div>
-          <div class="col-md-6 mb-3 border border-top-0 border-dark bg-light p-3">
+          <div class="col-md-6 mb-3 border border-top-0 border-dark fondo-grupo p-3">
               <div class="card">
               <table class="table text-center">
                 <thead>

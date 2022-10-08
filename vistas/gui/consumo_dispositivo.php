@@ -12,7 +12,7 @@
             <br>
             <div class="row p-5">
                 
-                <div class="col col-lg-4 col-12 card text-center">
+                <div class="col col-lg-4 col-12 card text-center border">
                     <br>
                     <div class="card-body border border-2 border-success">
                         <h3 class="card-title">[LG]</h3>
@@ -43,7 +43,7 @@
                     </div>
                     <br>
                 </div>
-            
+                
                 <div class="col col-lg-4 col-12 card text-center">
                     <br>
                     <div class="card-body border border-2 border-success">

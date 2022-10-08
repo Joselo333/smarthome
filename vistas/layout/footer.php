@@ -24,7 +24,6 @@
                     
                     <a 
                         class="text-light"
-                        style="margin:2% 2% 2% 2%"
                         target="_blank"
                         href="#">
                         
@@ -34,7 +33,6 @@
                     <br>
                     <a 
                         class="text-light"
-                        style="margin:2% 2% 2% 2%"
                         target="_blank"
                         href="#">
                         
