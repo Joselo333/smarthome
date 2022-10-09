@@ -31,21 +31,19 @@
   
         <div class="container-fluid">
             
-            <div 
-                style="background-image: url('../../imagenes/header/fondo_header.png');background-repeat: no-repeat;background-size: cover;"
-                class="row text-center">
+            <div class="row text-center p-3 fondo-seccion">
                 
                 <div class="col col-lg-4 col-12 text-light">
                     <a href="http://www.fi.uda.cl/">
                         <img 
                             class="img-fluid"
-                            style="width: 165px;height: 50px; margin:2% 2% 2% 2%"
+                            style="width: 165px;height: 50px;"
                             src="../../imagenes/header/Logo_Facultad.png"
                             alt="logo uda">
                     </a>
                     <a href="http://www.diicc.uda.cl/">
                         <img 
-                            style="width: 165px;height: 50px; margin:2% 2% 2% 2%"
+                            style="width: 165px;height: 50px;"
                             class="img-fluid"
                             src="../../imagenes/header/Logo_DIICC5.png"
                             alt="logo diicc"><br>
@@ -53,34 +51,39 @@
                 </div>
                 
                 <div class="col col-lg-4 col-12 text-light">
-                    <h3>Smart Home</h3>
+                    <h2>Smart Home</h2>
                 </div>
                 
                 <div class="col col-lg-4 col-12 text-light">
                     <a href="http://www.fiuda2030.uda.cl/">
                         <img 
-                            style="width: 183px;height: 50px; margin:2% 2% 2% 2%"
+                            style="width: 221px;height: 50px;"
                             class="img-fluid"
-                            src="../../imagenes/header/logo_fiuda.png"
+                            src="../../imagenes/header/logo_fiuda1.png"
                             alt="logo fiuda">
                     </a>    
                     <a href="https://www.utem.cl/">  
                         <img 
                             class="img-fluid"
-                            style="width: 184px;height: 50px; margin:2% 2% 2% 2%"
+                            style="width: 184px;height: 50px;"
                             src="../../imagenes/header/Logo_UTEM3.png"
                             alt="logo utem">
                     </a> 
                 </div>
             </div>
-            <div class="row">
-                <div class="col col-lg-12 col-12 bg-warning text-center text-dark fw-bold">
-                    <p>Grupo de Investigación Smart City</p>
+            <div class="row fondo-grupo p-1">
+                <div class="col col-lg-12 col-12 text-center text-dark"
+                >
+                    <h5 style="text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff,
+                     0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;">
+                        Proyecto desarrollado por el Grupo de Investigación Smart City
+                    </h5>
                 </div>
-            </div>        
-            
+                
+            </div>
             
         </div>
+    
     <div class="container-fluid">
         <div class="row">
             

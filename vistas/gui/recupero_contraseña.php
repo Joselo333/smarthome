@@ -1,7 +1,7 @@
 
 <div class="modal fade" id="recuperarContraseña" tabindex="-1" aria-labelledby="recuperarClaveTitulo" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content fondo-seccion">
+        <div class="modal-content fondo-grupo">
             <div class="modal-header">
 
                 <div class="row">
@@ -41,13 +41,13 @@
 
                 <div class="row">
                     <div class="col col-lg-6 col-12">
-                        <button type="button" href="home.php" class="btn  btn-warning"  data-bs-dismiss="modal">
+                        <button type="button" href="home.php" class="btn  btn-warning border border-dark"  data-bs-dismiss="modal">
                             Atrás
                         </button>
                     </div>    
 
                     <div class="col col-lg-6 col-12"> 
-                        <button type="button" href="home.php" class="btn  btn-success">
+                        <button type="button" href="home.php" class="btn  btn-success border border-dark">
                             Recuperar
                         </button>
                     </div>

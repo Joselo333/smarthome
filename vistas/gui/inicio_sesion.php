@@ -10,14 +10,14 @@
     <br><br>
     
     <div class="row">
-        <h3 class="col-12 border border-2 border-success text-center fondo-seccion">
+        <h3 class="col-12 border border-2 border-dark text-center fondo-grupo">
         Iniciar Sesión
         </h3>
     </div>
     
     <div class="row">
        <form id="login" action="../../controladores/validacion.php" method="get">
-            <div class="col col-lg-12 col-12 border border-2 border-success fondo-seccion px-2">
+            <div class="col col-lg-12 col-12 border border-2 border-dark fondo-grupo px-2">
                 <br>
                 <label class="form-label" for="input-rut">
                     <b>RUT</b>
@@ -39,21 +39,23 @@
                 <input  name="clave" type="password" class="form-control" 
                         id="input-pass" placeholder="Contraseña" required>
 
-                <br><br>   
+                <br>
+                <div class="col col-lg-12 col-12 text-center">
+                    <button id="ingresar" type="submit" form="login" class="btn btn-success border border-dark">
+                        Ingresar
+                    </button>
+                    <br>
+                </div> 
+                <br> 
             </div>
         </form>
-        <div class="col col-lg-12 col-12 text-center">
-            <a type="button" class="text-warning fw-bold" data-bs-toggle="modal" data-bs-target="#recuperarContraseña">
+        <div class="col col-lg-12 col-12 text-center mt-3">
+            <a type="button" class="text-dark btn btn-warning" data-bs-toggle="modal" data-bs-target="#recuperarContraseña">
                 ¡Recuperar Contraseña!
             </a> 
         </div>
-        <div class="col col-lg-12 col-12 text-center">
-            <button id="ingresar" type="submit" form="login" class="btn btn-success">
-                Ingresar
-            </button>
-            <br>
-        </div>
-            
+        
+        <br><br><br>
         <?php require('recupero_contraseña.php') ?>                
                 
         
