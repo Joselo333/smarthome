@@ -1,9 +1,9 @@
 <?php require('../layout/head.php') ?>
-<link rel="stylesheet" href="../estilos/paginas_generales.css">
 
 <div class="container-fluid">
+  <?php require('menu_lateral.php') ?>
   <div class="row">
-    <?php require('menu_lateral.php') ?>
+    
     <div id="mover3" class=""></div>
     <div id="content3" class="col-12">
       <br><br>

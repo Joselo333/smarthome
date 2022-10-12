@@ -6,37 +6,41 @@
                 class="row">
                 
                 <div class="col col-lg-4 col-12">
+                    <br>
                     <h3 
-                        style="margin:2% 2% 2% 2%"
-                        class="text-light text-center">
+                         class="text-light text-center">
                         Smart Home
                     </h3>
                 </div>
                 
                 <div class="col col-lg-4 col-12 text-light text-center">
-                    <p style="margin:2% 2% 2% 2%">
+                    <br>
+                    <p>
                         Copyright © 2022, Universidad de Atacama
                         <br>Copayapu 485, Copiapó, Chile
                     </p>
                 </div>
                 
                 <div class="col col-lg-4 col-12 text-center">
-                    
+                    <br>
                     <a 
-                        class="text-light"
+                        class="text-light text-decoration-none"
                         target="_blank"
                         href="#">
                         
-                        <i class="bi bi-facebook">  
+                        <i class="bi bi-facebook"> 
+                           /ProyectoSmartHome
                         </i>
+
                     </a>
                     <br>
                     <a 
-                        class="text-light"
+                        class="text-light text-decoration-none"
                         target="_blank"
                         href="#">
                         
-                        <i class="bi bi-instagram">  
+                        <i class="bi bi-instagram"> 
+                            /ProyectoSmartHome
                         </i>
                     </a>
                     <br>

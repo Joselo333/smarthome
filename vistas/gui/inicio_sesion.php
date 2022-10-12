@@ -1,5 +1,5 @@
 <?php 
-    include("../../controladores/conexion.php");
+    include("../../mer/conexion.php");
     $con=conectar();
     $sql="SELECT * FROM usuarios";
     $query=mysqli_query($con,$sql);
@@ -19,13 +19,6 @@
        <form id="login" action="../../controladores/validacion.php" method="get">
             <div class="col col-lg-12 col-12 border border-2 border-dark fondo-grupo px-2">
                 <br>
-                <label class="form-label" for="input-rut">
-                    <b>RUT</b>
-                </label>
-                <input  name="rut" type="text" class="form-control"
-                        id="input-rut" placeholder="12345678-9" required>
-                        
-                <br><br>
                 <label for="input-email">
                     <b>Email</b>
                 </label>
@@ -44,7 +37,6 @@
                     <button id="ingresar" type="submit" form="login" class="btn btn-success border border-dark">
                         Ingresar
                     </button>
-                    <br>
                 </div> 
                 <br> 
             </div>

@@ -2,8 +2,9 @@
 <link rel="stylesheet" href="../estilos/paginas_generales.css">
 
 <div class="container-fluid">
+	<?php require('menu_lateral.php') ?>
 	<div class="row">
-		<?php require('menu_lateral.php') ?>
+		
 		<br><br>
 		<div id="mover4" class=""></div>
 		<div id="content4" class="col-12">

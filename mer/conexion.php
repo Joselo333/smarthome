@@ -2,7 +2,7 @@
     function conectar(){
         $host="localhost";
         $user="root";
-        $pass="123456789";
+        $pass="";
 
         $bd="smarthome";
 

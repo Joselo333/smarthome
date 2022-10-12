@@ -1,20 +1,21 @@
 <?php
-    include('conexion.php');
+    include('../mer/conexion.php');
     $con=conectar();
     $correo=$_GET['correo'];
     $clave=$_GET['clave'];
-    $rut=$_GET['rut'];
 
     session_start();
     $_SESSION['correo']=$correo;
 
-    $consulta="SELECT * FROM usuarios WHERE rut='$rut' and correo='$correo' and clave='$clave'";
+    $consulta="SELECT * FROM usuarios WHERE correo='$correo' and clave='$clave'";
     $resultado=mysqli_query($con,$consulta);
     $filas=mysqli_num_rows($resultado);
-
-    if($filas > 0){
+    $row=mysqli_fetch_array($resultado);
+    
+    if($filas> 0){
         
-        header("Location: ../vistas/gui/menu.php");
+        $id = $row['id'];
+        header("Location: ../vistas/gui/menu.php?id=$id");
         
     }else{
     

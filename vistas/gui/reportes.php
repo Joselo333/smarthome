@@ -1,7 +1,8 @@
 <?php require('../layout/head.php') ?>
 <div class="container-fluid">
+    <?php require('menu_lateral.php') ?>
     <div class="row">
-        <?php require('menu_lateral.php') ?>
+        
         <div id="mover5" class=""></div>
         <div id="content5" class="col-12 text-center">
             <br><br>

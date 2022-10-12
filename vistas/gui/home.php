@@ -95,5 +95,6 @@
                 <?php require('inicio_sesion.php') ?>
             </div>
         </div>
+        <br><br><br>
     </div>
 <?php require('../layout/footer.php') ?>
