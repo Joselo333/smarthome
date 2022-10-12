@@ -31,44 +31,46 @@
   
         <div class="container-fluid">
             
-            <div class="row text-center p-3 fondo-seccion">
+        <div class="row text-center p-4 fondo-seccion">
                 
-                <div class="col col-lg-4 col-12 text-light">
+                <div class="col col-lg-2 col-12 text-light">
                     <a href="http://www.fi.uda.cl/">
                         <img 
                             class="img-fluid"
-                            style="width: 165px;height: 50px;"
                             src="../../imagenes/header/Logo_Facultad.png"
-                            alt="logo uda">
-                    </a>
-                    <a href="http://www.diicc.uda.cl/">
-                        <img 
-                            style="width: 165px;height: 50px;"
-                            class="img-fluid"
-                            src="../../imagenes/header/Logo_DIICC5.png"
-                            alt="logo diicc"><br>
-                    </a>
+                            alt="logo uda"    
+                        ></a>
+                </div>
+                <div class="col col-lg-2 col-12 text-light">
+                        <a href="https://www.utem.cl/">  
+                            <img 
+                                class="img-fluid"
+                                src="../../imagenes/header/Logo_UTEM3.png"
+                                alt="logo utem">
+                        </a> 
                 </div>
                 
                 <div class="col col-lg-4 col-12 text-light">
                     <h2>Smart Home</h2>
                 </div>
                 
-                <div class="col col-lg-4 col-12 text-light">
+                <div class="col col-lg-2 col-12 text-light">
+                    <a href="http://www.diicc.uda.cl/">
+                        <img 
+                            
+                            class="img-fluid"
+                            src="../../imagenes/header/Logo_DIICC5.png"
+                            alt="logo diicc"><br>
+                    </a>
+                </div>
+                <div class="col col-lg-2 col-12 text-light">
                     <a href="http://www.fiuda2030.uda.cl/">
                         <img 
-                            style="width: 221px;height: 50px;"
+
                             class="img-fluid"
                             src="../../imagenes/header/logo_fiuda1.png"
                             alt="logo fiuda">
                     </a>    
-                    <a href="https://www.utem.cl/">  
-                        <img 
-                            class="img-fluid"
-                            style="width: 184px;height: 50px;"
-                            src="../../imagenes/header/Logo_UTEM3.png"
-                            alt="logo utem">
-                    </a> 
                 </div>
             </div>
             <div class="row fondo-grupo p-1">
