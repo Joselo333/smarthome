@@ -49,15 +49,15 @@
 </div>
 <script>
         function abrirMenu5(){
-            document.getElementById('content5').classList.toggle('col-md-9');
-            document.getElementById('mover5').classList.toggle('col-3');
+            document.getElementById('content5').classList.toggle('col-md-8');
+            document.getElementById('mover5').classList.toggle('col-4');
         }
         document.getElementById('abrir').onclick = function(){
             abrirMenu5();
         }
         function cerrarMenu5(){
-            document.getElementById('content5').classList.toggle('col-md-9');
-            document.getElementById('mover5').classList.toggle('col-3');
+            document.getElementById('content5').classList.toggle('col-md-8');
+            document.getElementById('mover5').classList.toggle('col-4');
         }
         document.getElementById('cerrar').onclick = function(){
             cerrarMenu5();

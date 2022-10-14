@@ -71,15 +71,15 @@
 </div>
 <script>
         function abrirMenu1(){
-            document.getElementById('content1').classList.toggle('col-md-9');
-            document.getElementById('mover1').classList.toggle('col-3');
+            document.getElementById('content1').classList.toggle('col-md-8');
+            document.getElementById('mover1').classList.toggle('col-4');
         }
         document.getElementById('abrir').onclick = function(){
             abrirMenu1();
         }
         function cerrarMenu1(){
-            document.getElementById('content1').classList.toggle('col-md-9');
-            document.getElementById('mover1').classList.toggle('col-3');
+            document.getElementById('content1').classList.toggle('col-md-8');
+            document.getElementById('mover1').classList.toggle('col-4');
         }
         document.getElementById('cerrar').onclick = function(){
             cerrarMenu1();

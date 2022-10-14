@@ -163,15 +163,15 @@
 </div>
 <script>
         function abrirMenu4(){
-            document.getElementById('content4').classList.toggle('col-md-9');
-            document.getElementById('mover4').classList.toggle('col-3');
+            document.getElementById('content4').classList.toggle('col-md-8');
+            document.getElementById('mover4').classList.toggle('col-4');
         }
         document.getElementById('abrir').onclick = function(){
             abrirMenu4();
         }
         function cerrarMenu4(){
-            document.getElementById('content4').classList.toggle('col-md-9');
-            document.getElementById('mover4').classList.toggle('col-3');
+            document.getElementById('content4').classList.toggle('col-md-8');
+            document.getElementById('mover4').classList.toggle('col-4');
         }
         document.getElementById('cerrar').onclick = function(){
             cerrarMenu4();

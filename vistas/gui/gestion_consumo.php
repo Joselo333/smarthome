@@ -108,17 +108,18 @@
         </div>
     </div>
 </div>
+<br><br>
 <script>
         function abrirMenu2(){
-            document.getElementById('content2').classList.toggle('col-md-9');
-            document.getElementById('mover2').classList.toggle('col-3');
+            document.getElementById('content2').classList.toggle('col-md-8');
+            document.getElementById('mover2').classList.toggle('col-4');
         }
         document.getElementById('abrir').onclick = function(){
             abrirMenu2();
         }
         function cerrarMenu2(){
-            document.getElementById('content2').classList.toggle('col-md-9');
-            document.getElementById('mover2').classList.toggle('col-3');
+            document.getElementById('content2').classList.toggle('col-md-8');
+            document.getElementById('mover2').classList.toggle('col-4');
         }
         document.getElementById('cerrar').onclick = function(){
             cerrarMenu2();

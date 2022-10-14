@@ -47,10 +47,10 @@ style="background-image: url(../../imagenes/menu/fondo_pagina.png);background-re
             
             <br class="d-none d-md-block ">
             <br class="d-none d-md-block ">
-            <br class="d-none d-md-block ">
             <br class="d-md-none d-lg-block">
             <br class="d-md-none d-lg-block">
-                
+            <br class="d-lg-none d-xl-block">
+            <br class="d-lg-none d-xl-block">
 
             <div class="col col-lg-12 col-12">
                 <a href="gestion_dispositivo.php?id=<?php echo $row['id']?>">
@@ -63,10 +63,11 @@ style="background-image: url(../../imagenes/menu/fondo_pagina.png);background-re
                 
             <br class="d-none d-md-block ">
             <br class="d-none d-md-block ">
-            <br class="d-none d-md-block ">
             <br class="d-md-none d-lg-block">
             <br class="d-md-none d-lg-block">
-                
+            <br class="d-lg-none d-xl-block">
+            <br class="d-lg-none d-xl-block">
+            
             <div class="col col-lg-12 col-12">
                 <a  href="consumo_dispositivo.php?id=<?php echo $row['id']?>">
                     <p class="btn btn-block w-100 border border-2 border-dark fondo-seccion text-light">
@@ -77,10 +78,11 @@ style="background-image: url(../../imagenes/menu/fondo_pagina.png);background-re
                 
             <br class="d-none d-md-block ">
             <br class="d-none d-md-block ">
-            <br class="d-none d-md-block ">
             <br class="d-md-none d-lg-block">
             <br class="d-md-none d-lg-block">
-                
+            <br class="d-lg-none d-xl-block">
+            <br class="d-lg-none d-xl-block">
+
             <div class="col col-lg-12 col-12">
                 <a href="gestion_consumo.php?id=<?php echo $row['id']?>">
                     <p class="btn btn-block w-100 border border-2 border-dark fondo-seccion text-light">
@@ -91,10 +93,10 @@ style="background-image: url(../../imagenes/menu/fondo_pagina.png);background-re
                                     
             <br class="d-none d-md-block">
             <br class="d-none d-md-block">
-            <br class="d-none d-md-block">
             <br class="d-md-none d-lg-block">
             <br class="d-md-none d-lg-block">
-                
+            <br class="d-lg-none d-xl-block">
+            <br class="d-lg-none d-xl-block">
                                     
             <div class="col col-lg-12 col-12 ">
                 <a href="gestion_energia.php?id=<?php echo $row['id']?>">
@@ -106,9 +108,10 @@ style="background-image: url(../../imagenes/menu/fondo_pagina.png);background-re
                 
             <br class="d-none d-md-block ">
             <br class="d-none d-md-block ">
-            <br class="d-none d-md-block ">
             <br class="d-md-none d-lg-block">
             <br class="d-md-none d-lg-block">
+            <br class="d-lg-none d-xl-block">
+            <br class="d-lg-none d-xl-block">
                                     
             <div class="col col-lg-12 col-12">
                 <a href="reportes.php?id=<?php echo $row['id']?>">

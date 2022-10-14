@@ -85,15 +85,15 @@
 </div>
 <script>
         function abrirMenu3(){
-            document.getElementById('content3').classList.toggle('col-md-9');
-            document.getElementById('mover3').classList.toggle('col-3');
+            document.getElementById('content3').classList.toggle('col-md-8');
+            document.getElementById('mover3').classList.toggle('col-4');
         }
         document.getElementById('abrir').onclick = function(){
             abrirMenu3();
         }
         function cerrarMenu3(){
-            document.getElementById('content3').classList.toggle('col-md-9');
-            document.getElementById('mover3').classList.toggle('col-3');
+            document.getElementById('content3').classList.toggle('col-md-8');
+            document.getElementById('mover3').classList.toggle('col-4');
         }
         document.getElementById('cerrar').onclick = function(){
             cerrarMenu3();

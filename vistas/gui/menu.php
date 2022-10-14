@@ -5,21 +5,21 @@
     <div class="row p-5">
         <div id="mover0" class=""></div>
         <div id="content0" class="col col-12 p-5 min-vh-100 border border-dark p-5 fondo-grupo shadow-lg p-3 mb-5 bg-body rounded">
-            <iframe src="https://app.dashboard.smartelectric.cl/d/wQY8dn6nz/dispositivos-energia?orgId=1&var-device=itcity-smt-1&from=1665596636770&to=1665596936770&refresh=5s&theme=light"
+            <iframe src="https://app.dashboard.smartelectric.cl/d/wQY8dn6nz/dispositivos-energia?orgId=1&var-device=itcity-smt-1&from=now-5m&to=now&refresh=5s&theme=light"
             class="w-100 h-100" frameborder="0"></iframe>
         </div>   
     </div>
     <script>
         function abrirMenu0(){
-            document.getElementById('content0').classList.toggle('col-md-9');
-            document.getElementById('mover0').classList.toggle('col-3');
+            document.getElementById('content0').classList.toggle('col-md-8');
+            document.getElementById('mover0').classList.toggle('col-4');
         }
         document.getElementById('abrir').onclick = function(){
             abrirMenu0();
         }
         function cerrarMenu0(){
-            document.getElementById('content0').classList.toggle('col-md-9');
-            document.getElementById('mover0').classList.toggle('col-3');
+            document.getElementById('content0').classList.toggle('col-md-8');
+            document.getElementById('mover0').classList.toggle('col-4');
         }
         document.getElementById('cerrar').onclick = function(){
             cerrarMenu0();
