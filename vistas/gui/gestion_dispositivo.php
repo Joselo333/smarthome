@@ -1,7 +1,15 @@
 <?php require('../layout/head.php') ?>
 
+
+
 <div class="container-fluid">
   <?php require('menu_lateral.php') ?>
+  <?php
+
+    $sql="SELECT * FROM dispositivos";
+    $query1=mysqli_query($con,$sql);
+
+?>
   <div class="row">
     
     <div id="mover3" class=""></div>
@@ -17,12 +25,7 @@
         <div class="row">
           <div class="col-md-5"></div>
           <div class="row my-4 ">
-            <div class="text-center">
-              <button type="button" class="btn btn-info">Filtrar</button>
-              <button type="button" class="btn btn-success">Agregar</button>
-              <button type="button" class="btn btn-warning">Editar</button>
-              <button type="button" class="btn btn-danger">Eliminar</button>
-            </div>
+            
           </div>
           <div class="col-md-4"></div>
         </div>
@@ -46,21 +49,31 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Marca</th>
                     <th scope="col">Nombre</th>
+                    <th scope="col">Marca</th>
                     <th scope="col">Tipo de uso</th>
                     <th scope="col">Tipo de consumo</th>
                   </tr>
                 </thead>
+                <?php
+                  if($query1){
+                    while($row=mysqli_fetch_array($query1)){
+                ?>
                 <tbody>
                   <tr>
-                    <th scope="row">1</th>
-                    <td>Samsung</td>
-                    <td>Tele1</td>
-                    <td>Diario</td>
-                    <td>Medio</td>
+                    <th scope="row"><?php echo $row['id'] ?></th>
+                    <td><?php echo $row['nombre'] ?></td>
+                    <td><?php echo $row['marca'] ?></td>
+                    <td><?php echo $row['uso'] ?></td>
+                    <td><?php echo $row['consumo'] ?></td>
+                    <td><a class = "btn"><i class="bi bi-pencil-square"></i></a>
                   </tr>
-                  <tr>
+
+                  <?php
+                    }
+                  }
+                  ?>
+                  <!-- <tr>
                     <th scope="row">2</th>
                     <td>Oster</td>
                     <td>Microondas</td>
@@ -73,7 +86,7 @@
                     <td>Lavadora</td>
                     <td>Cada 4 días</td>
                     <td>Alto</td>
-                  </tr>
+                  </tr> -->
                 </tbody>
               </table>
             </div>
