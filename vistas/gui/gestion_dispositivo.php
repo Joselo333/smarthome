@@ -6,8 +6,8 @@
   <?php require('menu_lateral.php') ?>
   <?php
 
-    $sql="SELECT * FROM dispositivos";
-    $query1=mysqli_query($con,$sql);
+    $sql1="SELECT * FROM dispositivos";
+    $query1=mysqli_query($con,$sql1);
 
 ?>
   <div class="row">
@@ -21,14 +21,7 @@
             <h2 class="text-center">Gestionar Dispositivos<h2>
           </div>
         </div>
-        <!-- Botones crud -->
-        <div class="row">
-          <div class="col-md-5"></div>
-          <div class="row my-4 ">
-            
-          </div>
-          <div class="col-md-4"></div>
-        </div>
+        <br><br>
         <!-- Barra de búsqueda -->
         <div class="row">
           <div class="col-md-3"></div>
@@ -66,32 +59,27 @@
                     <td><?php echo $row['marca'] ?></td>
                     <td><?php echo $row['uso'] ?></td>
                     <td><?php echo $row['consumo'] ?></td>
-                    <td><a class = "btn"><i class="bi bi-pencil-square"></i></a>
+                    <td> 
+                    
+                      <button type="button" data-id="<?php echo $row['id'] ?>" class="btn btn-warning editarBtn" data-bs-toggle="modal" data-bs-target="#editarDisp">
+                        <i class="bi bi-pencil-square"></i>
+                      </button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-danger borrarBtn" data-bs-toggle="modal" data-bs-target="#borrarDisp">
+                        <i class="bi bi-trash"></i>
+                      </button>
+                    </td>
                   </tr>
-
                   <?php
+                      }
                     }
-                  }
-                  ?>
-                  <!-- <tr>
-                    <th scope="row">2</th>
-                    <td>Oster</td>
-                    <td>Microondas</td>
-                    <td>Menor a 5 minutos</td>
-                    <td>Alto</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Mademsa</td>
-                    <td>Lavadora</td>
-                    <td>Cada 4 días</td>
-                    <td>Alto</td>
-                  </tr> -->
+                    ?>
                 </tbody>
               </table>
             </div>
           </div>
-
+          <?php require('modal_CRUD.php') ?>
         </div>
     </div>
   </div>

@@ -16,7 +16,7 @@
     </div>
     
     <div class="row">
-       <form id="login" action="../../controladores/validacion.php" method="get">
+       <form id="login" action="../../controladores/validacion.php" method="post">
             <div class="col col-lg-12 col-12 border border-2 border-dark fondo-grupo px-2">
                 <br>
                 <label for="input-email">

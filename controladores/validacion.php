@@ -1,8 +1,8 @@
 <?php
     include('../mer/conexion.php');
     $con=conectar();
-    $correo=$_GET['correo'];
-    $clave=$_GET['clave'];
+    $correo=$_POST['correo'];
+    $clave=$_POST['clave'];
 
     session_start();
     $_SESSION['correo']=$correo;
